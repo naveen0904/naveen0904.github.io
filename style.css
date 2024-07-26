@@ -1,0 +1,226 @@
+*
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ h3{
+    padding-top: 1%;
+    padding-left: 7%;
+    font-size: xx-large;
+    
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ 
+ .header{
+    background-color: rgb(145, 145, 145);
+    height: 2cm;
+    position: static;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+ }
+ .home_main
+{
+    display: flex;
+    height: 16cm;
+    background-color: rgb(221, 235, 237);
+ 
+}
+.home_content
+{
+   
+    height: 8cm;
+    width: 14cm ;
+    margin-left: 4cm;
+    top: 5cm;
+    position: relative;
+}
+.home_photo
+{
+    
+    border-radius: 50%;
+    background-color: rgb(157, 189, 225);
+    left: 1cm;
+    height: 10cm;
+    width: 12cm ;
+    margin-left: 0.5cm;
+    margin-top: 4cm;
+    position: relative;
+}
+.men{
+    border-radius: 360px;
+    position: absolute;
+    top:0cm;
+    left: 0cm;
+    height:9.9cm;
+    width:12.3cm;
+    transition: width 2s,height 2s;
+}
+.men:hover{
+    height: 9cm;
+    width: 11cm;
+    
+}
+.about
+{
+    display: flex;
+    height: 16cm;
+    background-color: rgba(138, 144, 145, 0.629); 
+     
+}
+ .about_image
+ {
+     
+     
+    left: 2cm;
+    height: 8cm;
+    width: 10cm ;
+    margin-left: 0.5cm;
+    margin-top: 3cm;
+    position: relative;
+ }
+.about_img
+{
+    height: 9cm;
+    width: 11cm 
+} 
+ a{
+    text-decoration: none;
+ }
+ 
+.about_content
+{
+    text-align: center;
+}
+.aboutme
+{
+    position: relative;
+    margin-left: 22%;
+    margin-right: 20%;
+    text-align: justify;
+ }
+ p{
+    text-align: justify;
+ }
+ .par
+ {
+    text-align: center;
+    font-size: larger;
+ }
+
+.top
+{
+    text-decoration: none;
+     display: flex;
+   
+     font-size: xx-large;
+     list-style-type: none;
+    padding-top: 1%;
+    padding-left: 30%;
+}
+ li:hover{
+    font-weight: bold;
+ }
+ li{
+  
+   padding-right: 10%;
+ 
+ }
+.skills_outer
+{
+    height: 12cm;
+    width: 100%;
+    background-color: rgb(221, 235, 237);
+}
+.skill_inner
+{
+    height: 6cm;
+    width: 22cm;
+    position: relative;
+   
+    left: 9cm;
+    top: 3cm;
+}
+.skill_par
+{
+    text-align: center;
+    color: rgb(50, 127, 153);
+    font-size: x-large;
+    font-weight: bold;
+}
+.ref
+{
+    height: 0.7cm;
+    width: 2cm;
+     
+    display: flex;
+    justify-content: space-between;
+}
+.skill_image
+{
+    position: relative;
+    
+    height: 3cm;
+    width: 19cm;
+    left: 2cm;
+    top: 0.4cm;
+}
+.down
+{
+    position: relative;
+    top: 1cm;
+    height: 1.2cm;
+    width: 4cm;
+    font-size: large;
+    background-color:  rgb(32, 89, 154);
+    border: none;
+}
+.explore
+{
+    position: relative;
+    top: 0.93cm;
+    left: 1cm;
+    height: 1.2cm;
+    width: 4cm;
+    font-size: large;
+    background-color:  rgb(198, 210, 223);
+    border: none;
+}
+
+.project_outer
+{
+    height: 14cm;
+    
+    border: 1.1px solid black;
+    background-color: rgba(138, 144, 145, 0.629); 
+}
+.project_content
+{
+    display: flex;
+}
+.project_image
+{
+    padding-left: 50%;
+}
+.project_text
+{
+}
+.footer
+{
+     
+    height: 9cm;
+    background-color: rgb(221, 235, 237);
+}
+.foot
+{
+    position: relative;
+     
+    height: 5cm;
+    width: 9cm;
+    left: 3cm;
+    top: 1.9cm;
+}
